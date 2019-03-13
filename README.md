@@ -22,7 +22,7 @@ Como podemos ver ambos servicios están activos y lo que haremos a continuación
 
 Ahora es el turno de verificar el servidor web para lo que realizaremos, siguiendo el guión, un archivo html en la siguiente ruta: /var/www/html/hola.html. Utilizaremos la herramienta curl para verificar el estado de la página que nos deberá devolver lo que hemos escrito en el archivo, en las siguientes imagenes podemos ver el procedimiento entre las máquinas y con el host:
 
-![Curl realizado desde host](p1/holawap1.png "Conexión apache desde host")
+![Curl realizado desde host](p1/holaswap1.png "Conexión apache desde host")
 ![Conexión apache desde máquina 2 a la 1](p1/curlHola-swap2to1.png "Conexión apache ub2 a ub1")
 
 
