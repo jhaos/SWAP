@@ -35,6 +35,6 @@ Podemos ver que accedemos perfectamente sin necesidad de contraseña. Como medid
 Por último para la automatización de los procesos podemos usar crontab. Vamos a hacer una prueba y se va a modificar el fichero en /etc/crontab para que ejecute el clonado con rsync cada hora. Una vez modificado debemos reiniciar el servicio de cron. En la siguiente imagen podemos apreciar como quedaría el fichero y el posterior reinicio.
 
 
-![Automatización rsync con crontab](Img/clonadoRsync.png "crontab")
+![Automatización rsync con crontab](Img/crontab.png "crontab")
 
 Para finalizar puntualizar en en crontab existen palabras reservadas muy útiles como @hourly que ejecuta el comando cada hora o @daily/@midnight para que se ejecute una vez al día.
