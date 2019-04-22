@@ -52,7 +52,7 @@ En esta prueba podemos confirmar los resultados anteriores ya que para una carga
 
 También se ha realizado con top una revisión para ver la carga que generab. En la siguiente imagen podremos apreciar como la máquina 2 tiene un poco mas de carga que la máquina 1, así como en la máquina balanceadora tiene casi toda la carga de la cpu ocupada con el proceso de nginx.
 
-![Top](Img/top_nginx "Top")
+![Top](Img/top_nginx.png "Top")
 
 ![Pound status](Img/pound_status_peticiones.png "Pound status")
 
