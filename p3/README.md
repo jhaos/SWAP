@@ -50,6 +50,8 @@ En este caso podemos ver similitudes con el ejemplo pero en este caso las difere
 
 En esta prueba podemos confirmar los resultados anteriores ya que para una carga bastante grande ya existe una diferencia significativa entre ambos tanto en el tiempo en completar el test como en los tiempos por petición y la cantidad de peticiones por segundo.
 
-| Column 1       | Column 2     | Column 3     |
-| :------------- | :----------: | -----------: |
-|  Cell Contents | More Stuff   | And Again    |
+|                |    Nginx     |   Haproxy    |    Pound     |
+| :------------- | :----------: | -----------: | -----------: |
+|  Tiempo Total(s)  | 300.789   | 333.409    |
+|  Peticiones/Seg | 3324.62     | 2999.32    |
+|  Tiempo por Pet | 0.301       | 0.333    |
