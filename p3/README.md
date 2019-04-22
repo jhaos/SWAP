@@ -50,8 +50,18 @@ En este caso podemos ver similitudes con el ejemplo pero en este caso las difere
 
 En esta prueba podemos confirmar los resultados anteriores ya que para una carga bastante grande ya existe una diferencia significativa entre ambos tanto en el tiempo en completar el test como en los tiempos por petición y la cantidad de peticiones por segundo.
 
+![Pound status](Img/pound_status_peticiones.png "Pound status")
+
+Como se puede apreciar se ha instalado como tercer balanceador Pound esta levantado y funciona correctamente. A continuación procederemos a realizar el test con ab y realizaremos una tabla con las diferencias encontradas entre los tres balanceadores con el mismo número de peticiones enviadas.
+
+![Prueba 1000000 pound](Img/1000000_ab_pound.png "prueba 1000000 pound")
+
+
+
 |                |    Nginx     |   Haproxy    |    Pound     |
 | :------------- | :----------: | -----------: | -----------: |
-|  Tiempo Total(s)  | 300.789   | 333.409    |
-|  Peticiones/Seg | 3324.62     | 2999.32    |
-|  Tiempo por Pet | 0.301       | 0.333    |
+|  Tiempo Total(s)  | 300.789   | 333.409    |     349.196    |
+|  Peticiones/Seg | 3324.62     | 2999.32    |     2863.72    |
+|  Tiempo por Pet(s) | 0.301       | 0.333    |    0.349      |
+
+Analizando la tabla podemos concluir que para nuestro caso nginx nos ha dado mejores resultados, seguido por haproxy y por último pound.
