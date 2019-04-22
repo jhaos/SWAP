@@ -4,7 +4,7 @@ Para esta práctica se ha configurado una tercera máquina virtual la cual va a 
 
 Nginx ha sido instalado mediante el gestor de paquetes que ofrece ubuntu y se ha realizado la configuración en el fichero /etc/nginx/conf.d/default.conf
 
-![configuracion nginx](Img/nginx_config.png "config xginx")
+![configuracion nginx](Img/nginx_conf.png "config xginx")
 
 Como se puede apreciar se ha configurado para que la máquina 2 reciba el doble de peticiones que la máquina 1, así como la opción keepalive para obtener la persistencia de la sesión de los usuarios.
 
@@ -49,6 +49,10 @@ En este caso podemos ver similitudes con el ejemplo pero en este caso las difere
 ![Prueba 1000000 haproxy](Img/1000000_ab_haproxy.png "prueba 1000000 haproxy")
 
 En esta prueba podemos confirmar los resultados anteriores ya que para una carga bastante grande ya existe una diferencia significativa entre ambos tanto en el tiempo en completar el test como en los tiempos por petición y la cantidad de peticiones por segundo.
+
+También se ha realizado con top una revisión para ver la carga que generab. En la siguiente imagen podremos apreciar como la máquina 2 tiene un poco mas de carga que la máquina 1, así como en la máquina balanceadora tiene casi toda la carga de la cpu ocupada con el proceso de nginx.
+
+![Top](Img/top_nginx "Top")
 
 ![Pound status](Img/pound_status_peticiones.png "Pound status")
 
