@@ -54,7 +54,9 @@ También se ha realizado con top una revisión para ver la carga que generab. En
 
 ![Top](Img/top_nginx.png "Top")
 
-![Pound status](Img/pound_status_peticiones.png "Pound status")
+![Pound status](Img/pound_status.png "Pound status")
+![Pound status](Img/pound_peticiones.png "Pound status")
+
 
 Como se puede apreciar se ha instalado como tercer balanceador Pound esta levantado y funciona correctamente. A continuación procederemos a realizar el test con ab y realizaremos una tabla con las diferencias encontradas entre los tres balanceadores con el mismo número de peticiones enviadas.
 
