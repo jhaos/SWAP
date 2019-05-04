@@ -1,8 +1,8 @@
-##Práctica 4
+## Práctica 4
 
 Para esta práctica se ha realizado la configuración de la granja web incluyendo los servidores finales y el balanceador nginx. 
 
-###Configuración SSL
+### Configuración SSL
 
 Este certificado garantiza a los clientes que visitan nuestra página web que somos fiables y somos los que decimos ser, para ello utilizaremos el nuevo estandar TLS ya que SSL ya no se utiliza.
 
